@@ -1,0 +1,448 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+     <title>Resbar</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/mainStyle.css">
+   
+</head>
+
+<body>
+ <!-- Preloader Start -->
+ <div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+            <div class="preloader-circle"></div>
+            <div class="preloader-img pere-text">
+                <img src="assets/img/logo/resbarGreen.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Preloader Start -->
+<header>
+    <!-- Header Start -->
+    <div class="header-area header-transparrent">
+        <div class="headder-top header-sticky">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-2">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="index.html"><img class="icono" src="assets/img/logo/resbarVino.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9">
+                        <div class="menu-wrapper">
+                            <!-- Main-menu -->
+                            <div class="main-menu">
+                                <nav class="d-none d-lg-block">
+                                    <ul id="navigation">
+                                        <li><a href="index.html">Inicio</a></li>
+                                        <li><a href="blog.html">Sistema</a></li>
+                                        <li><a href="./getstarted.html">Descarga</a></li>
+                                        <li><a href="nosotros.html">Nosotros</a></li>
+                                
+                                        <li><a href="contact.html">Contactanos</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <!-- Header-btn 
+                            <div class="header-btn d-none f-right d-lg-block">
+                                <a href="#" class="btn head-btn1">Register</a>
+                                <a href="#" class="btn head-btn2">Login</a>
+                            </div>
+
+                            -->
+
+                            <div class="header-btn d-none f-right d-lg-block">
+                                <h1 style="font-size: 90px;
+                                font-weight: 700;
+                                font-style: italic;
+                                font-family: sans-serif;">ResBar</h1>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <!-- Mobile Menu -->
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+</header>
+    <!-- Hero Area Start-->
+    <div class="slider-area ">
+        <div class="single-slider section-overly slider-height2 d-flex align-items-center" data-background="assets/img/banner/codeeeew.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="hero-cap text-center">
+                            <h2>Instalación desde código fuente</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <!-- Hero Area End -->
+    <!--================Blog Area =================-->
+    <section class="blog_area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mb-5 mb-lg-0">
+                    <div class="blog_left_sidebar">
+                        <article class="blog_item">
+                            <div class="blog_item_img">
+                                <h4>
+                                    Para la Implementación del sistema desde sus paquetes fuentes necesitamos 
+                                    descargar otras herramientas para un correcto funcionamiento del sistema.
+                                </h4>
+                            
+                            </div>
+
+                            <div class="blog_details">
+                                <a class="d-inline-block">
+                                    <h2>1.Instalar MongoDB</h2>
+                                </a>
+                                <img class="card-img rounded-0" src="assets/img/elementos/mongodb.png" alt="">
+                        
+                                <p>MongoDB es un sistema de base de datos NoSQL, orientado a documentos y de código abierto. 
+                                    En lugar de guardar los datos en tablas, tal y como se hace en las bases de datos relacionales
+                                    
+                                </p>
+
+                                <p>
+                                    Para su instalación debe de ir a la pagina oficial de
+                                    <a href="https://mongodb.com/download-center/community">MongoDB</a> y selecciona el
+                                    instalador correspondiente a su sistema operativo.
+                                
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="blog_item">
+                            <a class="d-inline-block">
+                                <h2>2.Instalar NodeJS</h2>
+                            </a>
+                            <div class="blog_item_img">
+                                <img class="card-img rounded-0" src="assets/img/elementos/node.png" alt="">
+                            </div>
+
+                            <div class="blog_details">
+                               
+                                <p>Necesitamos instalar  <a href="https://nodejs.org/en/download">Node.js</a> 
+                                    ya que luego instalaremos  <a href="https://loopback.io/">loopback</a>
+                                    mediante npm
+                                </p>
+                                <p>
+                                Para su instalación nos dirigimos al siguiente enlace <a href="https://nodejs.org/en/download">https://nodejs.org/en/download</a>
+                                y seleccionar el instalador o binario respectivo.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="blog_item">
+                            <div class="blog_item_img">
+                                <a class="d-inline-block">
+                                    <h2>3.Instalar Loopback</h2>
+                                </a>
+                             
+                            </div>
+
+                            <div class="blog_details">
+                              
+                                <p>
+                                    Para la instalación de <a href="https://loopback.io/">loopback</a>, 
+                                    primero verificamos que tengamos instalado 
+                                    <a href="https://nodejs.org/en/download">Node.js</a>
+                                    y npm.
+                                </p>
+								<p>
+                                    Una vez hayamos verificado la correcta instalación de npm 
+                                ejecutamos 
+                                </p>
+								<p>
+                                    npm install -g @loopback/cli	
+                                </p>
+                                <p>
+                                    y Ya tendriamos todas las herramientas instaladas
+                                </p>
+                        
+                            </div>
+                            <img class="card-img rounded-0" src="assets/img/elementos/loopback.png" alt="">
+
+
+                        </article>
+
+                        <article class="blog_item">
+                            <div class="blog_item_img">
+                              <h2> Una vez instaladas todas las herramientas
+                                  procedemos a descargar los paquetes fuentes</h2>
+                            </div>
+
+                            <div class="blog_details">
+                                <a class="d-inline-block" >
+                                    <h2>Configuración de entorno del sistema ResBar</h2>
+                                </a>
+
+                                <p>Procedemos a descargar los archivos de la base de datos clickeamos en 
+                                     <a href="https://github.com/ResBar-2020/Resbar-backend-v1.0/archive/master.zip">Download</a></p>
+                                    <p> Esto le descargara un archivo .zip, que debera descomprimir.
+                                     Opcionalmente tambien puede descargarlo mediante <a href="https://git-scm.com/">git</a> y hacer un git clone
+                                     al enlace de github https://github.com/ResBar-2020/Resbar-backend-v1.0.git.</p>
+                                     <p>Cualquier método nos dejará dos directorios, uno con archivos referentes a la base 
+                                         de datos y el otro del API.
+                                     </p>
+                                <p>Luego debemos de iniciar el servicio de mongodb, ejecutando en la terminal como
+                                    administrador el comando:</p>
+                                    <code>
+                                        mongod
+                                    </code>
+                                <p>
+                                    Una vez iniciado el servicio de mongo procedemos a hacer un restore de la base de datos,
+                                    En la terminal ejecutamos el siguiente comando:
+                                </p>
+                                <code>mongorestore --db=resbar --dir=/home/kevin/Descargas/Resbar-backend-v1.0/resbar-backup/resbar/ </code>
+                                <p>Debera cambiar algunos parametros:</p>
+                                <ul>
+                                    <li>--db indica el nombre de la base de datos</li>
+                                    <li>--dir indica la ruta absoluta del directorio donde se han descargado los archivos de 
+                                        la base de datos.
+                                    </li>
+                                </ul>
+
+                                <p>Luego nos dirigimos al directorio donde descargamos el api, en nuestro caso seria:</p>
+                                <code>
+                                    cd Descargas/Resbar-backend-v1.0/resbar-apirest2020/
+                                </code>
+                                <p>Una vez estando acá, ejecutamos el comando <code>npm install</code>, para descargar todas las 
+                                dependencias del proyecto</p>
+                                <img class="card-img rounded-0" src="assets/img/elementos/npm.png" alt="">
+                                
+                                <p>Una vez descagadas todas las dependencias,ejecutamos un <code>npm start</code> para levantar 
+                                el servidor del API.</p>
+                                <p>Ahora descargamos el codigo fuente desde el siguiente enlace<a href="https://github.com/ResBar-2020/ResBar.git"><code> https://github.com/ResBar-2020/ResBar.git </code></a>
+                                
+                                </p>
+                                <p>una vez descargado ya puede ejecutar el sistema ResBar.</p>
+                                <img class="card-img rounded-0" src="assets/img/elementos/resbar.png" alt="">
+
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <!--sidebar right-->
+                <div class="col-lg-4" style="background-color: #1A2466;">
+                    <div class="blog_right_sidebar">
+                        <aside class="single_sidebar_widget search_widget">
+                            <form>
+                            
+                                <h4>Enlaces de Instalación</h4>
+                            </form>
+                        </aside>
+
+                        <aside class="single_sidebar_widget post_category_widget">
+                            <h4 class="widget_title">Descargar API</h4>
+                            <ul class="list cat-list">
+                                <li>
+                                    <a href="https://github.com/ResBar-2020/Resbar-backend-v1.0.git">
+                                        <span class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn">
+                                             Descargar código fuente API LoopBack</span></a>
+                                </li>
+                               
+                            </ul>
+                        </aside>
+
+                        <aside class="single_sidebar_widget post_category_widget">
+                            <h4 class="widget_title">Base de Datos</h4>
+                            <ul class="list cat-list">
+                                <li>
+                                    <a href="https://github.com/ResBar-2020/Resbar-backend-v1.0.git">
+                                        <span class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn">
+                                            Descargar Archivos de la base de Datos MongoDB</span></a>
+                                </li>
+                            
+                               
+                            </ul>
+                        </aside>
+                    
+
+                        <aside class="single_sidebar_widget post_category_widget">
+                            <h4 class="widget_title">Código Fuente ResBar</h4>
+                            <ul class="list cat-list">
+                                <li>
+                                    <a href="https://github.com/ResBar-2020/ResBar/tree/version-1.0-Texas">
+                                        <span class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn">
+                                            Descargar ResBar Texas version 1.0</span></a>
+                                </li>
+                            </ul>
+                        </aside>
+
+
+
+                        <aside class="single_sidebar_widget post_category_widget">
+                            <h4 class="widget_title">Futuras Opciones de Instalación y Descarga</h4>
+                            <ul class="list cat-list">
+                                <li>
+                                   - <span>Se agregará un Instalador para sistemas Windows</span>
+                                </li>
+                                <li>
+                                   - <span>Aplicación Móvil</span>
+                                </li>
+                                <li>
+                                  -  <span>Instalación mediante docker para sistemas GNU/Linux</span>
+                                </li>
+
+
+                            </ul>
+                        </aside>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================Blog Area =================-->
+    <footer>
+   
+
+
+           <!-- Footer Start-->
+           <div class="footer-area footer-bg footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-footer-caption mb-50">
+                            <div class="single-footer-caption mb-30">
+                                <div class="footer-tittle">
+                                    <h4>Sobre Nosotros</h4>
+                                    <div class="footer-pera">
+                                        <p>Somos un grupo de desarrolladores de la facultad Multidisciplinaria de
+                                            Occidente</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Contactanos</h4>
+                                <ul>
+
+                                    <li><a href="https://facebook.com">Facebook: Resbar2020</a></li>
+                                    <li><a href="https://github.com/ResBar-2020">Github: Resbar-2020</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Tecnologias Utilizadas</h4>
+                                <ul>
+                                    <li><a href="https://vuejs.org/">Vuejs</a></li>
+                                    <li><a href="https://www.mongodb.com/es">MongoDB </a></li>
+                                    <li><a href="https://loopback.io/">Loopback</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Futuras versiones</h4>
+                                <div class="footer-pera footer-pera2">
+                                    <p>Actualmente se encuentra en ResBar Texas-version,
+                                        proximamente ResBar Lacroix-version con nuevos features.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="footer-bottom-area footer-bg">
+                    <div class="container">
+                        <div class="footer-border">
+                            <div class="row d-flex justify-content-between align-items-center">
+                                <div class="col-xl-10 col-lg-10 ">
+                                    <div class="footer-copy-right">
+                                        <p>
+                                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                            Copyright &copy;All rights reserved | ResBar-2020 <a
+                                                href="https://github.com/ResBar-2020" target="_blank">Github</a></i>
+                                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer End-->
+    </footer>
+
+    <!-- JS here -->
+	
+		<!-- All JS Custom Plugins Link Here here -->
+        <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+		<!-- Jquery, Popper, Bootstrap -->
+		<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="./assets/js/popper.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+	    <!-- Jquery Mobile Menu -->
+        <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+		<!-- Jquery Slick , Owl-Carousel Plugins  -->
+        <script src="./assets/js/owl.carousel.min.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+        <script src="./assets/js/price_rangs.js"></script>
+       
+
+		<!-- One Page, Animated-HeadLin -->
+        <script src="./assets/js/wow.min.js"></script>
+		<script src="./assets/js/animated.headline.js"></script>
+		
+		<!-- Scrollup, nice-select, sticky -->
+        <script src="./assets/js/jquery.scrollUp.min.js"></script>
+        <script src="./assets/js/jquery.nice-select.min.js"></script>
+		<script src="./assets/js/jquery.sticky.js"></script>
+        <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+        <!-- contact js -->
+        <script src="./assets/js/contact.js"></script>
+        <script src="./assets/js/jquery.form.js"></script>
+        <script src="./assets/js/jquery.validate.min.js"></script>
+        <script src="./assets/js/mail-script.js"></script>
+        <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+        
+		<!-- Jquery Plugins, main Jquery -->	
+        <script src="./assets/js/plugins.js"></script>
+        <script src="./assets/js/main.js"></script>
+
+</body>
+</html>
